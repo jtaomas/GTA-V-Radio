@@ -1,0 +1,36 @@
+:root, html, body, #root, .opacity {
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  border-radius: 50px;
+  overflow: hidden;
+  filter: grayscale(1) contrast(100) brightness(1);
+  mix-blend-mode: multiply;
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+}
+
+.app {
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.75)), url('../public/background/gtasunset.png');
+
+  z-index: 1;
+  position: fixed;
+}
+
+.radiowheel {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.radio-station:hover {
+  border-radius: 1000px;
+  border: 5px solid rgb(167, 227, 167);
+}
+
