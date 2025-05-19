@@ -1,18 +1,25 @@
 import { useState } from "react"
+import { useContext } from "react";
+import { SongContext } from "./context/songplaying"
 
-export function RadioStation({station}) {
+export function RadioStation(props) {
+    const {angle, height, station} = props
     const [isPlaying, setIsPlaying] = useState({track: null, playing: false})
+    const angleRad = angle * (Math.PI / 180)
+    const top = 50 - (height * Math.cos(angleRad))
+    const left = 50 - (height * Math.sin(angleRad))
     
-    /* {
-        "name": "Blaine County Talk Radio",
-        "filename": "blaine-county-talk-radio.png",
-        "link": "https://www.youtube.com/watch?v=aaXui87cF5Y&t=3588s",
-        "seconds": 5079
-      } */
+    const {songs, setSongs, stationPlaying, setStationPlaying} = useContext(SongContext)
+    
+    const style = {
+        position:"absolute",
+        top:`${top}%`,
+        left:`${left}%` 
+    }
 
     return(
-        <div className="radio-station">
-            <img className="radioimage" src={`../public/radiostation/${station.filename}`}></img>
+        <div style={style} className="radio-station">
+            <img className="radioimage" src={`../radiostation/${station.filename}`}></img>
         </div>
     )
     

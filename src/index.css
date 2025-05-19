@@ -4,13 +4,31 @@
   margin: 0;
 }
 
+@media (max-width: 600px) {
+  html {
+    font-size: 12px;
+  }
+} 
+
+@media (min-width: 1200px) and (max-width: 1800px){
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1801px) {
+  html {
+    font-size: 18px
+  }
+}
+
 img {
   border-radius: 50px;
   overflow: hidden;
   filter: grayscale(1) contrast(100) brightness(1);
   mix-blend-mode: multiply;
-  height: 100px;
-  width: 100px;
+  height: inherit;
+  width: inherit;
   object-fit: contain;
 }
 
@@ -18,19 +36,29 @@ img {
   background-size: cover;
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.75)), url('../public/background/gtasunset.png');
-
+  background-image: linear-gradient(rgba(0, 0, 0, 0.043),rgba(0,0,0,0.75)), url('../background/gtasunset.png');
+  display: flex;
+  align-items: center;
+  justify-content: center;
   z-index: 1;
   position: fixed;
 }
 
 .radiowheel {
-  display: flex;
-  flex-wrap: wrap;
+  position: relative;
+  top: -3rem;
+  aspect-ratio : 1 / 1;
+  height: 90vh;
+}
+
+.radio-station {
+  height: 5rem;
+  width: 5rem;
+  position: relative;
 }
 
 .radio-station:hover {
   border-radius: 1000px;
-  border: 5px solid rgb(167, 227, 167);
+  border: 0.3rem solid rgb(167, 227, 167);
 }
 
