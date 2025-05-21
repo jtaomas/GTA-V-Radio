@@ -21,7 +21,7 @@ export function RadioWheel() {
             </div>
 
             <div className="songmetadata">
-                <h1 className="radio-station">{}</h1>
+                <h1 className="radio-name">{}</h1>
                 <h2 className="song-name">{}</h2>
                 <h3 className="artist-name">{}</h3>
             </div>

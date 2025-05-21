@@ -62,3 +62,8 @@ img {
   border: 0.3rem solid rgb(167, 227, 167);
 }
 
+.songmetadata {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
