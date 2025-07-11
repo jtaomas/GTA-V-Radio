@@ -7,16 +7,41 @@ export const SongContext = createContext()
 
 export function SongPlayingContextProvider({children}) {
     const [songs, setSongs] = useState(stationsData.stationdata)
-    const [stationPlaying, setStationPlaying] = useState({name: null, song:null, artist: null})
+    const [stationPlaying, setStationPlaying] = useState({"name": "None", "filename": "none.png", "link": null, "seconds": 0, "location": null, "playing": false, "timestamps": null})
+    const [qDown, setqDown] = useState(false)
+    const [angle, setAngle] = useState(0)
+    
+    const handleKeyDown = (e) => {
+        if (e.key === 'q' || e.key === 'Q') setqDown(true)
+    };
+
+    const handleKeyUp = (e) => {
+        if (e.key === 'q' || e.key === 'Q') setqDown(false)
+	};
+
     useEffect(() => {
         setSongs(songs.map((song) => {
-            return (song.location === null) ? {...song, location: (Math.floor(Math.random() * song.seconds))} : {...song}
-        }))
+            var randomtime = (Math.floor(Math.random() * song.seconds))
+            var newsong = {...song, location: randomtime}
+            return (song.location === null) ? newsong : {...song}
+                }
+            )
+        )
 
-        console.log(songs)
-    }, [])
+        }, [])
 
-    return(<SongContext.Provider value={{songs, setSongs, stationPlaying, setStationPlaying}}>
+    useEffect(() => {
+		window.addEventListener("keydown", handleKeyDown)
+		window.addEventListener("keyup", handleKeyUp)
+		
+		return () => {
+            window.removeEventListener("keydown", handleKeyDown)
+            window.removeEventListener("keyup", handleKeyUp)
+			}
+	}, [],)
+
+
+    return(<SongContext.Provider value={{songs, setSongs, stationPlaying, setStationPlaying, qDown, setqDown, angle, setAngle}}>
             {children}
         </SongContext.Provider>)
 }

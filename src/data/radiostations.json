@@ -4,6 +4,7 @@
       "name": "Blaine County Talk Radio",
       "filename": "blaine-county-talk-radio.png",
       "link": "https://www.youtube.com/watch?v=aaXui87cF5Y&t=3588s",
+      "playing": false,
       "seconds": 5079,
       "location": null,
       "timestamps": [
@@ -23,6 +24,7 @@
       "name": "Blonded Los Santos",
       "filename": "blonded-los-santos.webp",
       "link": "https://youtu.be/-tVumJBaTWY?si=hP515TI0qg5CteXU",
+      "playing": false,
       "seconds": 6139,
       "location": null,
           "timestamps": [
@@ -61,6 +63,7 @@
       "name": "Channel X",
       "filename": "channel-x.png",
       "link": "https://www.youtube.com/watch?v=S1-sjuvgo6s",
+      "playing": false,
       "seconds": 2741,
       "location": null,
       "timestamps": [
@@ -91,6 +94,7 @@
       "link": "https://www.youtube.com/watch?v=xTpsoTmhdNc",
       "seconds": 2465,
       "location": null,
+      "playing": false,
       "timestamps": [
       { "start": 7,    "end": 154,  "artist": "Los Buitres de Culiacan Sinaloa",  "song": "El Kocaino" },
       { "start": 155,  "end": 255,  "artist": "Mexican Institute of Sound",          "song": "Es-Toy" },
@@ -116,6 +120,7 @@
       "link": "https://www.youtube.com/watch?v=YAzCJINGWGM",
       "seconds": 2520,
       "location": null,
+      "playing": false,
       "timestamps": [
         { "start": 0,    "end": 145,   "artist": "Flying Lotus",                       "song": "Getting There (feat. Niki Randa)" },
         { "start": 146,  "end": 222,   "artist": "Clams Casino",                       "song": "Crystals" },
@@ -146,6 +151,7 @@
       "link": "https://youtu.be/fpvJaphZ2_g?si=98insbOs6XHfjknH",
       "seconds": 5201,
       "location": null,
+      "playing": false,
       "timestamps": [
         { "start": 8,    "end": 162,   "artist": "Danny Brown",                                                   "song": "Dance in the Water" },
         { "start": 163,  "end": 263,   "artist": "Pop Smoke",                                                    "song": "100k On A Coupe" },
@@ -183,6 +189,7 @@
       "link": "https://youtu.be/FY9EiOllRhE?si=V0EmyMvvYCkXTniF",
       "seconds": 8200,
       "location": null,
+      "playing": false,
       "timestamps": [
         { "start": 35,   "end": 329,   "artist": "Viagra Boys",                  "song": "Girls and Boys" },
         { "start": 330,  "end": 511,   "artist": "The Cramps",                   "song": "Human Fly" },
@@ -226,6 +233,7 @@
       "link": "https://www.youtube.com/watch?v=fZPV-9GlM-c",
       "seconds": 8971,
       "location": null,
+      "playing": false,
       "timestamps": [
         { "start": 7,    "end": 279,   "artist": "Simple Minds",                                  "song": "All the Things She Said" },
         { "start": 280,  "end": 443,   "artist": "The Greg Kihn Band",                           "song": "The Breakup Song (They Don't Write 'Em)" },
@@ -273,6 +281,7 @@
       "link": "https://www.youtube.com/watch?v=I2Xjuz-mnN0",
       "seconds": 16734,
       "location": null,
+      "playing": false,
       "timestamps": [
         { "start": 0, "end": 294, "artist": "Am$trad Billionaire", "song": "The Plan" },
         { "start": 295, "end": 617, "artist": "Ara Koufax", "song": "Natural States (Edit)" },
@@ -347,6 +356,7 @@
       "link": "https://youtu.be/30uA_Hppzpc",
       "seconds": 6906,
       "location": null,
+      "playing": false,
       "timestamps": [
         { "start": 9,    "end": 239,  "artist": "Caroline Polachek",                                             "song": "Bunny Is A Rider" },
         { "start": 240,  "end": 408,  "artist": "ROSALÍA",                                                      "song": "DI MI NOMBRE (Cap.8: Éxtasis)" },
@@ -390,6 +400,7 @@
       "link": "https://www.youtube.com/watch?v=dBvMBYbUZFc",
       "seconds": 24984,
       "location": null,
+      "playing": false,
       "timestamps": [
         { "start": 1, "end": 329, "artist": "Adam Port", "song": "White Noise Romantica" },
         { "start": 330, "end": 610, "artist": "Pastaboys feat. Osunlade", "song": "Deep Musique (Rampa Remix)" },
@@ -506,6 +517,7 @@
       "link": "https://www.youtube.com/watch?v=Fjp0wu3lEHk",
       "seconds": 13878,
       "location": null,
+      "playing": false,
       "timestamps": [
           { "start": 6, "end": 244, "artist": "Fergie feat. Ludacris", "song": "Glamorous" },
           { "start": 245, "end": 479, "artist": "Real Life", "song": "Send Me An Angel '89" },
@@ -544,7 +556,7 @@
           { "start": 7864, "end": 8048, "artist": "Living in a Box", "song": "Living in a Box" },
           { "start": 8049, "end": 8264, "artist": "M83", "song": "Midnight City" },
           { "start": 8265, "end": 8540, "artist": "Bronski Beat", "song": "Smalltown Boy" },
-          { "start": 8541, "end": 8750, "artist": "Morcheeba", "song": "Tape Loop (Later replaced with Shortcheeba Mix)" },
+          { "start": 8541, "end": 8750, "artist": "Morcheeba", "song": "Tape Loop (Original)" },
           { "start": 8751, "end": 8980, "artist": "Morcheeba", "song": "Tape Loop (Shortcheeba Mix)" },
           { "start": 8981, "end": 9207, "artist": "Pet Shop Boys", "song": "West End Girls" },
           { "start": 9208, "end": 9404, "artist": "Cassie", "song": "Me & U" },
@@ -576,6 +588,7 @@
       "link": "https://www.youtube.com/watch?v=C3_FSXZtRe8",
       "seconds": 21384,
       "location": null,
+      "playing": false,
       "timestamps": [
         { "start": 10, "end": 201, "artist": "G-Side feat. G-Mane", "song": "Relaxin'" },
         { "start": 202, "end": 399, "artist": "Kendrick Lamar", "song": "A.D.H.D" },
@@ -643,8 +656,8 @@
         { "start": 13568, "end": 13776, "artist": "Cordae", "song": "Kung Fu" },
         { "start": 13777, "end": 13987, "artist": "Miguel", "song": "Adorn" },
         { "start": 13988, "end": 14300, "artist": "E-40 feat. Slim Thug & Bun B", "song": "That Candy Paint" },
-        { "start": 14301, "end": 14498, "artist": "Young Jeezy feat. Freddie Gibbs", "song": "Rough (It could have been song \"Rough\" or \"Do It for You\", but not both)" },
-        { "start": 14499, "end": 14763, "artist": "Young Jeezy feat. Freddie Gibbs", "song": "Do It for You (It could have been song \"Do It for You\" or \"Rough\", but not both)" },
+        { "start": 14301, "end": 14498, "artist": "Young Jeezy feat. Freddie Gibbs", "song": "Rough" },
+        { "start": 14499, "end": 14763, "artist": "Young Jeezy feat. Freddie Gibbs", "song": "Do It for You" },
         { "start": 14764, "end": 15111, "artist": "Kanye West feat. Big Sean, Pusha T & 2 Chainz", "song": "Mercy" },
         { "start": 15112, "end": 15375, "artist": "Glasses Malone feat. Jay Rock", "song": "No Sympathy" },
         { "start": 15376, "end": 15601, "artist": "Wiz Khalifa", "song": "Work Hard, Play Hard" },
@@ -662,17 +675,17 @@
         { "start": 18218, "end": 18403, "artist": "Waka Flocka Flame", "song": "Rooster in My Rari" },
         { "start": 18404, "end": 18618, "artist": "2 Chainz", "song": "I'm Different" },
         { "start": 18619, "end": 18803, "artist": "Buddy", "song": "Awesome Awesome" },
-        { "start": 18804, "end": 19001, "artist": "Mac Miller", "song": "Loud (A Miller track was cut from the station that we don't have a name for. Taking into account most cut tracks are from 2012, I picked Loud off Macadelic. Fits the station really well)" },
+        { "start": 18804, "end": 19001, "artist": "Mac Miller", "song": "Loud" },
         { "start": 19002, "end": 19230, "artist": "Machine Gun Kelly feat. Waka Flocka Flame", "song": "Wild Boy" },
         { "start": 19231, "end": 19422, "artist": "T.I. feat. Trae tha Truth", "song": "What It Do" },
-        { "start": 19423, "end": 19617, "artist": "Chief Keef", "song": "Love Sosa (Whilst only confirmed by Chief Keef himself - who might have been lying, other songs of his did make it into the game. It could be his song was given the boot once he broke NDA. The track fits the game incredibly well either way)" },
+        { "start": 19423, "end": 19617, "artist": "Chief Keef", "song": "Love Sosa" },
         { "start": 19618, "end": 19834, "artist": "Stevie Stones feat. Yelawolf", "song": "Dollar General" },
         { "start": 19835, "end": 20101, "artist": "The Game feat. Common", "song": "Angel" },
         { "start": 20102, "end": 20369, "artist": "Big K.R.I.T feat. Big Sant & Bun B", "song": "Pull Up" },
-        { "start": 20370, "end": 20522, "artist": "Fenix Flexin feat. D-Block Europe", "song": "From the Block (Because the name is so generic, this is the closest I've found, outside of Jennifer Lopez that is...)" },
+        { "start": 20370, "end": 20522, "artist": "Fenix Flexin feat. D-Block Europe", "song": "From the Block" },
         { "start": 20523, "end": 20711, "artist": "Chief Keef feat. A Boogie wit da Hoodie", "song": "Glory Bridge" },
         { "start": 20712, "end": 20833, "artist": "Freddie Gibbs feat. Big Sean & Hit-Boy", "song": "4 Thangs" },
-        { "start": 20834, "end": 20996, "artist": "Pacman Da Gunman feat. Richard Fisher", "song": "Spin Again (Not confirmed, it is only confirmed that the song called Spin Again has been cut from the game)" },
+        { "start": 20834, "end": 20996, "artist": "Pacman Da Gunman feat. Richard Fisher", "song": "Spin Again" },
         { "start": 20997, "end": 21190, "artist": "Flipp Dinero", "song": "Leave Me Alone" },
         { "start": 21191, "end": 21384, "artist": "Chief Keef", "song": "It Ain't My Fault" }
       ]
@@ -682,8 +695,9 @@
       "name": "None",
       "filename": "none.png",
       "link": null,
-      "seconds": 0,
+      "seconds": null,
       "location": null,
+      "playing": false,
       "timestamps": null
     },
     {
@@ -692,6 +706,7 @@
       "link": "https://www.youtube.com/watch?v=SDWHIACuuaQ",
       "seconds": 12773, 
       "location": null,
+      "playing": false,
       "timestamps": [
         { "start": 11,   "end": 248,   "artist": "Twin Shadow",                   "song": "Forget" },
         { "start": 249,  "end": 523,   "artist": "KAUF",                          "song": "When You're Out" },
@@ -755,6 +770,7 @@
       "link": "https://youtu.be/N12WWl_f3QM?si=H0rzjb_3-THwvPZ9",
       "seconds": 3457,
       "location": null,
+      "playing": false,
       "timestamps": [
         { "start": 35,   "end": 220,   "artist": "Charles Feathers",                                "song": "Can't Hardly Stand It" },
         { "start": 221,  "end": 400,   "artist": "Hank Thompson",                                    "song": "It Don't Hurt Anymore" },
@@ -781,6 +797,7 @@
       "link": "https://youtu.be/sFwcLC5HC9I?si=e6gAJ6OgsUjr1oGj",
       "seconds": 2566,
       "location": null,
+      "playing": false,
       "timestamps": [
         { "start": 0,    "end": 158,   "artist": "Palmbomen",                                   "song": "Stock (Soulwax Remix) (High Pitch)" },
         { "start": 159,  "end": 290,   "artist": "Fatal Error",                                 "song": "Fatal Error" },
@@ -809,6 +826,7 @@
       "link": "https://youtu.be/lCZc9y9KpY4?si=eEQaYVsi0opQtd-z",
       "seconds": 5653,
       "location": null,
+      "playing": false,
       "timestamps": [
         { "start": 44,    "end": 274,   "artist": "Bootsy Collins",         "song": "I'd Rather Be With You" },
         { "start": 275,   "end": 553,   "artist": "D. Train",               "song": "You're The One For Me" },
@@ -831,7 +849,7 @@
         { "start": 4554,  "end": 4814,  "artist": "Parliament",             "song": "Flashlight" },
         { "start": 4815,  "end": 5107,  "artist": "Parliament",             "song": "Mothership Connection (Star Child)" },
         { "start": 5108,  "end": 5349,  "artist": "The Fatback Band",       "song": "Gotta Get My Hands On Some (Money)" },
-        { "start": 5350,  "end": null,  "artist": "Zapp & Roger",           "song": "Do It Roger" }
+        { "start": 5350,  "end": 5653,  "artist": "Zapp & Roger",           "song": "Do It Roger" }
       ]        
     },
     {
@@ -840,6 +858,7 @@
       "link": "https://youtu.be/P3qixldzDow?si=1eAXSkGFVya4YnRU",
       "seconds": 4364,
       "location": null,
+      "playing": false,
       "timestamps": [
         { "start": 0,    "end": 127,  "artist": "DJ Nigga Fox",              "song": "5 Violinos" },
         { "start": 128,  "end": 283,  "artist": "Mr. Mankwa",                 "song": "Feediback" },
@@ -879,6 +898,7 @@
       "link": "https://youtu.be/osmrXqRuwJA?si=Lp4TtHzfj30LDILX",
       "seconds": 4790,
       "location": null,
+      "playing": false,
       "timestamps": [
         { "start": 8,    "end": 214,  "artist": "Chronixx",                                               "song": "Odd Ras" },
         { "start": 215,  "end": 435,  "artist": "Dennis Brown",                                           "song": "Money In My Pocket" },
@@ -910,6 +930,7 @@
       "link": "https://youtu.be/4J6JK7ich6E?si=zh7FT23Qien--43T",
       "seconds": 3299,
       "location": null,
+      "playing": false,
       "timestamps": [
         { "start": 0, "end": 232, "artist": "Gangrene", "song": "Play It Cool (feat. Samuel T. Herring & Earl Sweatshirt)" },
         { "start": 233, "end": 459, "artist": "Ab-Soul", "song": "Trouble (feat. Aloe Blacc)" },
@@ -933,6 +954,7 @@
       "link": "https://www.youtube.com/watch?v=oaNdiTLKlMA",
       "seconds": 4372,
       "location": null,
+      "playing": false,
       "timestamps": [
         { "start": 42, "end": 263, "artist": "Aaron Neville", "song": "Hercules" },
         { "start": 264, "end": 491, "artist": "B.T. Express", "song": "Do It (‘Til You’re Satisfied)" },
@@ -962,6 +984,7 @@
       "link": "https://youtu.be/5fnGyUc2eFs?si=8gMR5ZjrNyjHfvCt",
       "seconds": 5730,
       "location": null,
+      "playing": false,
       "timestamps": [
         { "start": 5,    "end": 144,   "artist": "Ty Segall Band",    "song": "Diddy Wah Diddy" },
         { "start": 145,  "end": 329,   "artist": "Mind Spiders",        "song": "Fall in Line" },
@@ -1000,6 +1023,7 @@
       "link": "https://www.youtube.com/watch?v=IhCFJnaYvnI&t=177s",
       "seconds": 5815,
       "location": null,
+      "playing": false,
       "timestamps": [
         { "start": 5,    "end": 1178,  "artist": "WCTR", "song": "The Fernando Show" },
         { "start": 1179, "end": 3068,  "artist": "WCTR", "song": "Chakra Attack 1" },
@@ -1013,6 +1037,7 @@
       "link": "https://www.youtube.com/watch?v=wnmg6CfHQ18",
       "seconds": 7292,
       "location": null,
+      "playing": false,
       "timestamps": [
         { "start": 19,    "end": 277,   "artist": "CPO Ft MC Ren",                     "song": "Ballad Of Menace" },
         { "start": 278,   "end": 577,   "artist": "Dr. Dre Ft Snoop Dogg",             "song": "Still DRE" },
@@ -1051,6 +1076,7 @@
       "link": "https://www.youtube.com/watch?v=fYi-ZoglszY&t=27s",
       "seconds": 6955,
       "location": null,
+      "playing": false,
       "timestamps": [
         {"start": 0, "end": 160, "artist": "Cashmere Cat", "song": "Mirror Maru"},
         {"start": 161, "end": 303, "artist": "The Hics", "song": "Cold Air"},

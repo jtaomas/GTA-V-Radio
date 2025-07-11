@@ -2,6 +2,10 @@
   min-height: 100vh;
   padding: 0;
   margin: 0;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Standard */
 }
 
 @media (max-width: 600px) {
@@ -29,7 +33,7 @@
 }
 
 img {
-  border-radius: 50px;
+  border-radius: 100px;
   overflow: hidden;
   filter: grayscale(1) contrast(100) brightness(1);
   mix-blend-mode: multiply;
@@ -38,11 +42,25 @@ img {
   object-fit: contain;
 }
 
+h1, h2{
+  margin: 0.8rem 0 1rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+  margin: 0.4rem 0 2rem;
+}
+
+iframe { 
+  position: absolute;
+  visibility: hidden;
+}
+
 .app {
   background-size: cover;
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.043),rgba(0,0,0,0.75)), url('../background/gtasunset.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.043),rgba(38, 38, 38, 0.75)), url('../background/gtasunset.png');
   display: flex;
   align-items: center;
   justify-content: center;
@@ -58,18 +76,33 @@ img {
 }
 
 .radio-station {
-  height: 5rem;
-  width: 5rem;
+  height: 6rem;
+  width: 6rem;
   position: relative;
-}
-
-.radio-station:hover {
-  border-radius: 1000px;
-  border: 0.3rem solid rgb(167, 227, 167);
 }
 
 .songmetadata {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  text-align: center;
+  color: #fcfcfc;
+}
+
+.metadatatext {
+  -webkit-text-stroke: 1.3px black;
+  font-family: 'Oswald';
+}
+
+.instructions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10px;
+}
+
+#qlogo { 
+  margin: 3px 8px 0px;
+  border-radius: 4px;
+  mix-blend-mode: normal;
+  height: 1.4rem;
+  filter: none;
 }
