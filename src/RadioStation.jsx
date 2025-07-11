@@ -24,7 +24,7 @@ export function RadioStation(props) {
     }
 
     return(
-        <div style={{...position, ...((stationPlaying.name === station.name) && outline)}} className="radio-station">
+        <div onClick={() => setStationPlaying(station)} style={{...position, ...((stationPlaying.name === station.name) && outline)}} className="radio-station">
             <img className="radioimage" src={`../radiostation/${station.filename}`}></img>
         </div>
     )
