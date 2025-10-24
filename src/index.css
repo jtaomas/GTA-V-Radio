@@ -61,7 +61,7 @@ iframe {
   background-size: cover;
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.01),rgba(175, 175, 175, 0.2)), url('../background/gtasunset.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.01),rgba(175, 175, 175, 0.2)), url('../background/gtasunset.webp');
   display: flex;
   align-items: center;
   justify-content: center;
